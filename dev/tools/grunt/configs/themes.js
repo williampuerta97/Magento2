@@ -50,5 +50,17 @@ module.exports = {
             'css/styles'
         ],
         dsl: 'less'
+    },
+    taller: {
+        area: 'frontend',
+        name: 'Taller/TallerTheme',
+        locale: 'es_CO',
+        files: [
+            'css/styles-m',
+            'css/styles-l',
+            'css/email',
+            'css/email-inline'
+        ],
+        dsl: 'less'
     }
 };
